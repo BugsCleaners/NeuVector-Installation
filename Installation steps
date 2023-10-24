@@ -1,6 +1,6 @@
 Using helm:
 
-Visit the link to view the helm charts and values(its on charts/core): https://github.com/neuvector/neuvector-helm/tree/master/charts/core
+Visit the link to view the helm charts and values(its on charts/core): [neuvector helm chart link](https://github.com/neuvector/neuvector-helm/tree/master/charts/core)
 
 After that adjust the following in the values file:
 	- Change the service type to "loadbalancer"
@@ -20,7 +20,7 @@ Then login to the gui using: https://<external-ip>:8443
 Select the vulnerabilities tab, and while highlighting any vulnerability it will shows the affected package version, and the fixed version, in addition at what pod the vulnerability exists.
 
 
-Reference: https://www.youtube.com/watch?v=c7cF0M4VIX8
+Reference: [how to install neuvector](https://www.youtube.com/watch?v=c7cF0M4VIX8)
 
 
 

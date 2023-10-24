@@ -6,10 +6,10 @@ After that adjust the following in the values file:
 	• Change the service type to "loadbalancer"  
 	• Change the containered flag to true (if we are using a gke)  
 
-Then upload the updated value file (ex: nu-values.yaml) to where you want to deploy the neuvector and use the below command:
+Then upload the updated value file (ex: nu-values.yaml) to where you want to deploy the neuvector and use the below command:  
 	• helm install neuvector neuvector/core -n neuvector --create-namespace -f nu-values.yaml  
 
-Then make sure that the webui service (which will be connected to the manager) is up, and note the external IP:
+Then make sure that the webui service (which will be connected to the manager) is up, and note the external IP:  
 	• Kubectl get svc -n neuvector   
 
 Then login to the gui using: https://<external-ip>:8443  

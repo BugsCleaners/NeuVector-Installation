@@ -3,8 +3,8 @@ Using helm:
 Visit the link to view the helm charts and values(its on charts/core): [neuvector helm chart link](https://github.com/neuvector/neuvector-helm/tree/master/charts/core)
 
 After that adjust the following in the values file:
-	- Change the service type to "loadbalancer"
-	- Change the containered flag to true (if we are using a gke)
+	* Change the service type to "loadbalancer"
+	* Change the containered flag to true (if we are using a gke)
 
 Then upload the updated value file (ex: nu-values.yaml) to where you want to deploy the neuvector and use the below command:
 	- helm install neuvector neuvector/core -n neuvector --create-namespace -f nu-values.yaml
